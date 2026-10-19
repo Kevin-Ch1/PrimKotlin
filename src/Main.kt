@@ -122,12 +122,26 @@ fun main(){
     }
 
     //Arreglos
-    val matriz1 = Array(4){IntArray(7)}
+    val matriz1 = Array(2){IntArray(3)}
 
     val matriz2 = arrayOf(
         intArrayOf(1,2),
-        intArrayOf(3,3),
-        intArrayOf(4,4),
+        intArrayOf(3,4),
+        intArrayOf(5,6),
     )
+
+    //acceder un elemento
+    println(matriz2[0][0])
+    println(matriz2[2][0])
+
+    //Recorrer un arreglo
+    for(i in matriz2.indices) {
+        for(j in matriz2[i].indices){
+            println("${matriz2[i][j]}")
+        }
+        println()
+    }
+
+
 
 }
