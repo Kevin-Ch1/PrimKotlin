@@ -4,7 +4,7 @@ fun main(){
     println("Hello World")
 
     //variables
-    //var(mutables-cambian) y var(inmutables-no combia)
+    //var(mutables-cambian) y val(inmutables-no combia)
 
     //Toda variable debe ser inicializada
     //Formal
@@ -70,7 +70,7 @@ fun main(){
         3 -> print("Tres")
         else -> print("Ingrese los números del 1 al 3")
     }
-
+    */
     //for
 
     for(i in 1..5){
@@ -81,15 +81,18 @@ fun main(){
         println(i)
     }
 
+    println("For 4")
     for(i in 1..10 step 4){
         println(i)
     }
 
+    println("For 2")
     for(i in 10 downTo 1 step 2){
         println(i)
     }
 
     //while
+    println("While")
     var i = 1
     while (i <= 10){
         println(i)
@@ -98,13 +101,14 @@ fun main(){
 
     //do-while
 
+    println("Do-While")
     var j = 0
 
     do{
         println(j)
         j++
     }while (j <= 10)
-     */
+
 
     //Vectores y arreglos
 
